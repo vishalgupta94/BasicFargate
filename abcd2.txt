@@ -1,0 +1,33 @@
+  2459  grep '~/.git*' | jq
+ 2460  ls '~/.git*'
+ 2461  ls -a '~/.git*'
+ 2462  git config
+ 2463  open ~/.ssh
+ 2464  ssh-keygen -t rsa -C "vishalg485@gmail.com"
+ 2465  ssh-add ~/.ssh/vishal_github.pub
+ 2466  mkdir ~/.ssh
+ 2467  mv vishal_github.pub ~/.ssh/vishal_github.pub    
+ 2468  ls ~/.ssh
+ 2469  mv vishal_github ~/.ssh/
+ 2470  ls ~/.ssh
+ 2471  ssh-add -l
+ 2472  ssh-add ~/.ssh/vishal_github.pub    
+ 2473  ssh-add ~/.ssh/vishal_github
+ 2474  ssh-add -l
+
+ 2518  cd BasicFargate
+ 2519  git add .
+ 2520  git commit -m "abcd"
+ 2521  git push
+ 2522  ssh -T git@github.com
+ 2523  git push
+ 2524  git push --help
+ 2525  eval "$(ssh-agent -s)"
+ 2526  git remote -v
+ 2527  git remote set-url origin https://github.com/vishalgupta94/BasicFargate.git
+ 2528  git push
+ 2529  git push
+ 2530  git remote set-url origin git@github.com:vishalgupta94/BasicFargate.git\n
+ 2531  ssh -T git@github.com\n
+ 2532  git push git@github.com
+ 2533  git push origin
