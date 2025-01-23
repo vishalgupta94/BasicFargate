@@ -1,4 +1,9 @@
-  2459  grep '~/.git*' | jq
+cdk init 
+
+
+
+
+ 2459  grep '~/.git*' | jq
  2460  ls '~/.git*'
  2461  ls -a '~/.git*'
  2462  git config
